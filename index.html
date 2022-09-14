@@ -107,6 +107,22 @@
                 <td>8 hours</td>     
             </tr>
         </table>
+        <hr>
+        <head>Code Fencing</head>
+        <blockquote cite="https://css-tricks.com/snippets/css/system-font-stack/">If we didn’t have CSS variables, this would be a much more effciient way to write and update the code.</blockquote>
+       <pre>
+        @font-face {
+            font-family: system-ui;
+            font-style: normal;
+            font-weight: 300;
+            src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+          }
+          
+          /* Now, let's apply it on an element */
+          body {
+            font-family: "system-ui";
+          }
+       </pre>
     </body>
 </html>
 
